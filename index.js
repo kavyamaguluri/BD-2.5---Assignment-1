@@ -297,6 +297,9 @@ app.get('/products/filter/price', (req, res)=>{
   res.json(filteredProducts);
 })
 
+app.get('/products', (req,res) => {
+  res.json(products);
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
