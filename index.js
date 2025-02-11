@@ -301,6 +301,7 @@ app.get('/products', (req,res) => {
   res.json(products);
 });
 
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
